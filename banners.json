@@ -3,5 +3,10 @@
     "id": "referral",
     "title": "Invite your friends and earn rewards",
     "cta": "Learn more"
+  },
+  {
+    "id": "test",
+    "title": "This is a test banner with a really long title.",
+    "cta": "Read mode"
   }
 ]

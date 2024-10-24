@@ -2,11 +2,18 @@
   {
     "id": "referral",
     "title": "Invite your friends and earn rewards",
-    "cta": "Learn more"
+    "cta": "Learn more",
+    "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png"
   },
   {
     "id": "test",
     "title": "This is a test banner with a really long title.",
-    "cta": "Read mode"
+    "cta": "Read mode",
+    "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png?raw=true"
+  },
+  {
+    "id": "test2",
+    "title": "This is a test banner without an image and with a really really really really really long title.",
+    "cta": "Press here!"
   }
 ]

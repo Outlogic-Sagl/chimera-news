@@ -2,8 +2,12 @@
   {
     "id": "referral",
     "title": "Invite your friends and earn rewards",
+    "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png",
     "cta": "Learn more",
-    "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png"
+    "action": {
+      "type": "navigate",
+      "screen": "Referral"
+    }
   },
   {
     "id": "test",
@@ -12,8 +16,31 @@
     "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png?raw=true"
   },
   {
+    "id": "test123123123",
+    "title": "This is a test banner with a really long title.",
+    "cta": "Read mode",
+    "image": "https://raw.githubusercontent.com/Outlogic-Sagl/chimera-news/refs/heads/test/images/referral.png?raw=true",
+    "action": {
+      "type": "web",
+      "url": "https://google.com/"
+    }
+  },
+  {
     "id": "test2",
     "title": "This is a test banner without an image and with a really really really really really long title.",
     "cta": "Press here!"
+  },
+  {
+    "id": "invalid",
+    "title": "This in an invalid banner without a call to action."
+  },
+  {
+    "id": "invalid2",
+    "title": "This in an invalid banner without a call to action.",
+    "cta": "This should be hidden!",
+    "action": {
+      "type": "web",
+      "screen": "InvalidScreen"
+    }
   }
 ]

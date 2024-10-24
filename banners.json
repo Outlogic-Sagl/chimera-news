@@ -2,6 +2,11 @@
   {
     "id": "referral",
     "title": "Invite your friends and earn rewards",
-    "cta": "Learn more"
+    "image": "https://github.com/Outlogic-Sagl/chimera-news/blob/main/images/referral.png?raw=true",
+    "cta": "Learn more",
+    "action": {
+      "type": "navigate",
+      "screen": "Referral"
+    }
   }
 ]
